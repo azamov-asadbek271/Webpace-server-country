@@ -10,3 +10,4 @@ const countryAPI = `https://restcountries.com/v3.1${country}`;
 request(countryAPI)
 .then((data) => {creatCountryInfo(data[0])})
 .catch((err) => {console.log(err)})
+// s
